@@ -8,7 +8,7 @@ for MYline in open('1a3d.pdb'):
         x_pos_cordinate = list[6:7]
         print(x_pos_cordinate)
         
-# showing atom x coordinates
+# showing atom y coordinates
 print("Y_coordinates:")
 for MYline in open('1a3d.pdb'):
     list = MYline.split()
@@ -17,7 +17,7 @@ for MYline in open('1a3d.pdb'):
         y_pos_cordinate = list[7:8]
         print(y_pos_cordinate)
         
-# showing atom x coordinates
+# showing atom z coordinates
 print("Z_coordinates:")
 for MYline in open('1a3d.pdb'):
     list = MYline.split()
